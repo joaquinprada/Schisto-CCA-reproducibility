@@ -12,12 +12,13 @@ dt <- read.csv("DataMayuge.csv")
 ## Save variables of interest
 ## Note warning will appear when transforming CCA data to numeric - can be ignored
 KK1 <- as.matrix(dt[,2:3])
-KK2 <- as.matrix(dt[,6:7])
-KK3 <- as.matrix(dt[,10:11])
+KK2 <- as.matrix(dt[,4:5])
+KK3 <- as.matrix(dt[,6:7])
 
-CCA1 <- as.matrix(cbind(as.numeric(dt[,14]),dt[,15:16]))-1
-CCA2 <- as.matrix(cbind(as.numeric(dt[,17]),dt[,18:19]))-1
-CCA3 <- as.matrix(cbind(as.numeric(dt[,20]),dt[,21:22]))-1
+## Note the G-score is used with -1 (so that it starts at zero)
+CCA1 <- as.matrix(cbind(as.numeric(dt[,8]),dt[,9:10]))-1
+CCA2 <- as.matrix(cbind(as.numeric(dt[,11]),dt[,12:13]))-1
+CCA3 <- as.matrix(cbind(as.numeric(dt[,14]),dt[,15:16]))-1
 
 ## Load data for priors of logistic function for CCA
 dtprior <- read.csv("kints.csv")
