@@ -146,7 +146,7 @@ axis(1)
 axis(2)
 
 mtext("Sensitivity",side=2,cex=1,line=1.2)
-mtext("1 - Specificify",side=1,cex=1,line=1.2)
+mtext("1 - Specificity",side=1,cex=1,line=1.2)
 
 legend("bottomright",c("Sampling 1 Day","Sampling 2 Days","Sampling 3 Days"),
        col=c("black","red","darkgreen"),
@@ -182,7 +182,7 @@ axis(1)
 axis(2)
 
 mtext("Sensitivity",side=2,cex=1,line=1.2)
-mtext("1 - Specificify",side=1,cex=1,line=1.2)
+mtext("1 - Specificity",side=1,cex=1,line=1.2)
 
 legend("bottomright",c("Sampling 1 Day","Sampling 2 Days","Sampling 3 Days"),
        col=c("black","red","darkgreen"),
