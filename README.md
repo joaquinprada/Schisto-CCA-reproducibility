@@ -13,6 +13,9 @@ It is coded as Mayuge above.
 
 -----
 ScriptMayuge.R contains the annotated code to run the latent class analysis model for Mayuge data. The script also contains the code to generate the top-half of Figure 1.
+
 ScriptTororo.R contains the annotated code to run the latent class analysis model for Tororo data. The script also contains the code to generate the bottom-half of Figure 1.
+
 SimulationError.R contains the annotated code to do the simulations and the analysis required to generate Figures 2 and 3.
+
 SimulationErrorFunctions.R contains some additional functions to run the script above (SimulationError.R).
