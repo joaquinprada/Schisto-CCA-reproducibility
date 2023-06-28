@@ -4,8 +4,10 @@ Data and Scripts for the analysis of the reproducibility of CCA in two settings 
 Description of the Files:
 
 -----
-**DataMayuge.csv** contains the raw data from Mayuge. 
+**DataMayuge.csv** contains the raw data from Mayuge.
+
 Kato-Katz data is coded as follows: KK_X_Y, where *X* codes the day (either 1, 2 or 3) and *Y* codes the repeat (either A or B). 
+
 Point of Care Circulating Cathodic Antigen (POC-CCA) G-score is coded as follows POC_CCA_X, where *X* codes the day (either 1, 2 or 3). A subscript _dup2 and _dup3 indicates the second and third duplicate for each day.
 
 **DataTororo.csv** contains the raw data from Tororo. 
