@@ -19,3 +19,6 @@ It is coded as Mayuge above.
 **SimulationError.R** contains the annotated code to do the simulations and the analysis required to generate Figures 2 and 3.
 
 **SimulationErrorFunctions.R** contains some additional functions to run the script above (SimulationError.R).
+
+-----
+**kints.csv** is an additional file with posterior draws from the model run in Clark et al., 2022, Translating From Egg- to Antigen-Based Indicators for Schistosoma mansoni Elimination Targets: A Bayesian Latent Class Analysis Study.
