@@ -112,8 +112,8 @@ SensSpecEstimatesTororo <- sapply(1:length(IDs),function(x){modelSensSpec(1000,x
 QsenspcTororo <- apply(SensSpecEstimatesTororo,1,quantile,c(.025,.5,.975))
 
 ### Plot ROC curve ###
-pdf("ROCcurve.pdf",width=7*2,height=4.64)
-par(font=2, cex.axis=0.75, lwd=2, mar=c(2.1,2.2,1.2,0)+0.1,mgp=c(3,0.4,0))
+pdf("Figure 2 - ROCcurve.pdf",width=7*2,height=4.64)
+par(font=2, cex.axis=1, lwd=2, mar=c(2.1,2.2,1.2,0)+0.1,mgp=c(3,0.4,0))
 par(mfcol=c(1,2))
 
 ## Mayuge
@@ -145,12 +145,12 @@ arrows(x0=1-QsenspcMayuge[1,c(18,20,22,24)],y0=QsenspcMayuge[2,c(17,19,21,23)],
 axis(1)
 axis(2)
 
-mtext("Sensitivity",side=2,cex=1,line=1.2)
-mtext("1 - Specificity",side=1,cex=1,line=1.2)
+mtext("Sensitivity",side=2,cex=1.25,line=1.2)
+mtext("1 - Specificity",side=1,cex=1.25,line=1.2)
 
 legend("bottomright",c("Sampling 1 Day","Sampling 2 Days","Sampling 3 Days"),
        col=c("black","red","darkgreen"),
-       bty='n',cex=0.75,lty=1)
+       bty='n',cex=1.25,lty=1)
 
 ## Tororo
 plot(NA,xlim = c(0,.6),ylim = c(.4,1),axes = F, xlab = "", ylab = "")
@@ -181,12 +181,12 @@ arrows(x0=1-QsenspcTororo[1,c(18,20,22,24)],y0=QsenspcTororo[2,c(17,19,21,23)],
 axis(1)
 axis(2)
 
-mtext("Sensitivity",side=2,cex=1,line=1.2)
-mtext("1 - Specificity",side=1,cex=1,line=1.2)
+mtext("Sensitivity",side=2,cex=1.25,line=1.2)
+mtext("1 - Specificity",side=1,cex=1.25,line=1.2)
 
 legend("bottomright",c("Sampling 1 Day","Sampling 2 Days","Sampling 3 Days"),
        col=c("black","red","darkgreen"),
-       bty='n',cex=0.75,lty=1)
+       bty='n',cex=1.25,lty=1)
 
 dev.off()
 
