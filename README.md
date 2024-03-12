@@ -1,5 +1,5 @@
 # Schisto-CCA-reproducibility
-Data and Scripts for the analysis of the reproducibility of CCA in two settings in Uganda. The analysis is presented in the manuscript by E. Kabbas-Piñango et al., "Reproducibility matters: Intra- and inter-sample variation of the point-of-care circulating cathodic antigen test (POC-CCA) in high and low Schistosoma mansoni endemic areas in Uganda", 2023, under review  
+Data and Scripts for the analysis of the reproducibility of CCA in two settings in Uganda. The analysis is presented in the manuscript by E. Kabbas-Piñango et al., "Reproducibility matters: intra- and inter-sample variation of the point-of-care circulating cathodic antigen test in two Schistosoma mansoni endemic areas in Uganda", Philos Trans R Soc Lond B Biol Sci. 2023 Oct 9;378(1887):20220275. doi: 10.1098/rstb.2022.0275.  
 
 Description of the Files:
 
